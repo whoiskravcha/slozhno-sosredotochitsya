@@ -120,7 +120,7 @@
   background-color: var(--accent-color, #ff8dcb);
 }
 
-.decoration__title  {
+.decoration__title {
   justify-self: start;
   color: var(--heading-color, #ffc2e6);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -200,6 +200,11 @@
   block-size: max(100vb, 668px);
 }
 
+.footer .decoration__title {
+  justify-self: center;
+  align-self: center;
+}
+
 .footer::before {
   content: '';
   display: block;
@@ -218,12 +223,6 @@
   inline-size: 25px;
   block-size: 25px;
 }
-
-.decoration__title {
-  justify-self: center;
-  align-self: center;
-}
-
 
 @media (width >= 768px) {
   .decoration__title {
@@ -305,5 +304,5 @@
   .what .main__section-content {
     grid-column: span 1;
     grid-row: 2/3;
-  } 
+  }
 }
