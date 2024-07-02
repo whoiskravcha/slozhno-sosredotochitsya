@@ -15,8 +15,8 @@
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
+  height: 100%;
   min-block-size: 668px;
-  block-size: 100%;
   align-items: start;
   justify-items: end;
 }
