@@ -16,6 +16,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   min-block-size: 668px;
+  max-block-size: 100vh;
   align-items: start;
   justify-items: end;
 }
@@ -236,7 +237,7 @@
     gap: 80px;
   }
 
-  .header__theme-menu-list  {
+  .header__theme-menu-list {
     margin-top: 192px;
     margin-bottom: 173px;
     margin-right: 20px;
