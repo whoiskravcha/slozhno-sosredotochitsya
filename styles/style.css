@@ -197,7 +197,7 @@
   }
 
   .header {
-    max-height: 668px;
+    min-height: 668px;
   }
 
   .header__rec {
@@ -234,7 +234,7 @@
   }
   
   .header {
-    max-height: 1024px;
+    min-height: 1024px;
   }
 
   .header__rec {
